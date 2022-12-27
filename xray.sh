@@ -46,8 +46,8 @@ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.
 sudo apt-get install speedtest
 clear
 
-# set time GMT +7
-ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+# set time GMT +1
+ln -fs /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
 # Install Nginx
 apt install nginx -y
@@ -709,67 +709,67 @@ net.ipv4.tcp_max_orphans = 32768
 net.ipv4.ip_forward = 1" >> /etc/sysctl.conf
 
 # Hosting
-Romba89="raw.githubusercontent.com/Romba89/vdns/main"
+entclassblog="raw.githubusercontent.com/lentclassblog/private/main"
 cd /usr/bin
 ## Menu
-wget -O menu "https://${Romba89}/xray/menu/menu.sh"
-wget -O vmess "https://${Romba89}/xray/menu/vmess.sh"
-wget -O vless "https://${Romba89}/xray/menu/vless.sh"
-wget -O trojan "https://${Romba89}/xray/menu/trojan.sh"
-wget -O shadowsocks "https://${Romba89}/xray/menu/shadowsocks.sh"
-wget -O shadowsocks2022 "https://${Romba89}/xray/menu/shadowsocks2022.sh"
-wget -O socks "https://${Romba89}/xray/menu/socks.sh"
+wget -O menu "https://${entclassblog}/xray/menu/menu.sh"
+wget -O vmess "https://${entclassblog}/xray/menu/vmess.sh"
+wget -O vless "https://${entclassblog}/xray/menu/vless.sh"
+wget -O trojan "https://${entclassblog}/xray/menu/trojan.sh"
+wget -O shadowsocks "https://${entclassblog}/xray/menu/shadowsocks.sh"
+wget -O shadowsocks2022 "https://${entclassblog}/xray/menu/shadowsocks2022.sh"
+wget -O socks "https://${entclassblog}/xray/menu/socks.sh"
 ## Vmess
-wget -O add-vmess "https://${Romba89}/xray/vmess/add-vmess.sh"
-wget -O del-vmess "https://${Romba89}/xray/vmess/del-vmess.sh"
-wget -O extend-vmess "https://${Romba89}/xray/vmess/extend-vmess.sh"
-wget -O trialvmess "https://${Romba89}/xray/vmess/trialvmess.sh"
-wget -O cek-vmess "https://${Romba89}/xray/vmess/cek-vmess.sh"
+wget -O add-vmess "https://${entclassblog}/xray/vmess/add-vmess.sh"
+wget -O del-vmess "https://${entclassblog}/xray/vmess/del-vmess.sh"
+wget -O extend-vmess "https://${entclassblog}/xray/vmess/extend-vmess.sh"
+wget -O trialvmess "https://${entclassblog}/xray/vmess/trialvmess.sh"
+wget -O cek-vmess "https://${entclassblog}/xray/vmess/cek-vmess.sh"
 ## Vless
-wget -O add-vless "https://${Romba89}/xray/vless/add-vless.sh"
-wget -O del-vless "https://${Romba89}/xray/vless/del-vless.sh"
-wget -O extend-vless "https://${Romba89}/xray/vless/extend-vless.sh"
-wget -O trialvless "https://${Romba89}/xray/vless/trialvless.sh"
-wget -O cek-vless "https://${Romba89}/xray/vless/cek-vless.sh"
+wget -O add-vless "https://${entclassblog}/xray/vless/add-vless.sh"
+wget -O del-vless "https://${entclassblog}/xray/vless/del-vless.sh"
+wget -O extend-vless "https://${entclassblog}/xray/vless/extend-vless.sh"
+wget -O trialvless "https://${entclassblog}/xray/vless/trialvless.sh"
+wget -O cek-vless "https://${entclassblog}/xray/vless/cek-vless.sh"
 ## Trojan
-wget -O add-trojan "https://${Romba89}/xray/trojan/add-trojan.sh"
-wget -O del-trojan "https://${Romba89}/xray/trojan/del-trojan.sh"
-wget -O extend-trojan "https://${Romba89}/xray/trojan/extend-trojan.sh"
-wget -O trialtrojan "https://${Romba89}/xray/trojan/trialtrojan.sh"
-wget -O cek-trojan "https://${Romba89}/xray/trojan/cek-trojan.sh"
+wget -O add-trojan "https://${entclassblog}/xray/trojan/add-trojan.sh"
+wget -O del-trojan "https://${entclassblog}/xray/trojan/del-trojan.sh"
+wget -O extend-trojan "https://${entclassblog}/xray/trojan/extend-trojan.sh"
+wget -O trialtrojan "https://${entclassblog}/xray/trojan/trialtrojan.sh"
+wget -O cek-trojan "https://${entclassblog}/xray/trojan/cek-trojan.sh"
 ## Shadowsocks
-wget -O add-ss "https://${Romba89}/xray/shadowsocks/add-ss.sh"
-wget -O del-ss "https://${Romba89}/xray/shadowsocks/del-ss.sh"
-wget -O extend-ss "https://${Romba89}/xray/shadowsocks/extend-ss.sh"
-wget -O trialss "https://${Romba89}/xray/shadowsocks/trialss.sh"
-wget -O cek-ss "https://${Romba89}/xray/shadowsocks/cek-ss.sh"
+wget -O add-ss "https://${entclassblog}/xray/shadowsocks/add-ss.sh"
+wget -O del-ss "https://${entclassblog}/xray/shadowsocks/del-ss.sh"
+wget -O extend-ss "https://${entclassblog}/xray/shadowsocks/extend-ss.sh"
+wget -O trialss "https://${entclassblog}/xray/shadowsocks/trialss.sh"
+wget -O cek-ss "https://${entclassblog}/xray/shadowsocks/cek-ss.sh"
 ## Shadowsocks 2022
-wget -O add-ss2022 "https://${Romba89}/xray/shadowsocks2022/add-ss2022.sh"
-wget -O del-ss2022 "https://${Romba89}/xray/shadowsocks2022/del-ss2022.sh"
-wget -O extend-ss2022 "https://${Romba89}/xray/shadowsocks2022/extend-ss2022.sh"
-wget -O trialss2022 "https://${Romba89}/xray/shadowsocks2022/trialss2022.sh"
-wget -O cek-ss2022 "https://${Romba89}/xray/shadowsocks2022/cek-ss2022.sh"
+wget -O add-ss2022 "https://${entclassblog}/xray/shadowsocks2022/add-ss2022.sh"
+wget -O del-ss2022 "https://${entclassblog}/xray/shadowsocks2022/del-ss2022.sh"
+wget -O extend-ss2022 "https://${entclassblog}/xray/shadowsocks2022/extend-ss2022.sh"
+wget -O trialss2022 "https://${entclassblog}/xray/shadowsocks2022/trialss2022.sh"
+wget -O cek-ss2022 "https://${entclassblog}/xray/shadowsocks2022/cek-ss2022.sh"
 ## Socks5
-wget -O add-socks "https://${Romba89}/xray/socks/add-socks.sh"
-wget -O del-socks "https://${Romba89}/xray/socks/del-socks.sh"
-wget -O extend-socks "https://${Romba89}/xray/socks/extend-socks.sh"
-wget -O trialsocks "https://${Romba89}/xray/socks/trialsocks.sh"
-wget -O cek-socks "https://${Romba89}/xray/socks/cek-socks.sh"
+wget -O add-socks "https://${entclassblog}/xray/socks/add-socks.sh"
+wget -O del-socks "https://${entclassblog}/xray/socks/del-socks.sh"
+wget -O extend-socks "https://${entclassblog}/xray/socks/extend-socks.sh"
+wget -O trialsocks "https://${entclassblog}/xray/socks/trialsocks.sh"
+wget -O cek-socks "https://${entclassblog}/xray/socks/cek-socks.sh"
 ## Log
-wget -O log-create "https://${Romba89}/xray/log/log-create.sh"
-wget -O log-vmess "https://${Romba89}/xray/log/log-vmess.sh"
-wget -O log-vless "https://${Romba89}/xray/log/log-vless.sh"
-wget -O log-trojan "https://${Romba89}/xray/log/log-trojan.sh"
-wget -O log-ss "https://${Romba89}/xray/log/log-ss.sh"
-wget -O log-ss2022 "https://${Romba89}/xray/log/log-ss2022.sh"
-wget -O log-socks "https://${Romba89}/xray/log/log-socks.sh"
+wget -O log-create "https://${entclassblog}/xray/log/log-create.sh"
+wget -O log-vmess "https://${entclassblog}/xray/log/log-vmess.sh"
+wget -O log-vless "https://${entclassblog}/xray/log/log-vless.sh"
+wget -O log-trojan "https://${entclassblog}/xray/log/log-trojan.sh"
+wget -O log-ss "https://${entclassblog}/xray/log/log-ss.sh"
+wget -O log-ss2022 "https://${entclassblog}/xray/log/log-ss2022.sh"
+wget -O log-socks "https://${entclassblog}/xray/log/log-socks.sh"
 ## Other
-wget -O xp "https://${Romba89}/xray/other/xp.sh"
-wget -O dns "https://${Romba89}/xray/other/dns.sh"
-wget -O certxray "https://${Romba89}/xray/other/certxray.sh"
-wget -O xraymod "https://${Romba89}/xray/other/xraymod.sh"
-wget -O xrayofficial "https://${Romba89}/xray/other/xrayofficial.sh"
-wget -O about "https://${Romba89}/xray/other/about.sh"
+wget -O xp "https://${entclassblog}/xray/other/xp.sh"
+wget -O dns "https://${entclassblog}/xray/other/dns.sh"
+wget -O certxray "https://${entclassblog}/xray/other/certxray.sh"
+wget -O xraymod "https://${entclassblog}/xray/other/xraymod.sh"
+wget -O xrayofficial "https://${entclassblog}/xray/other/xrayofficial.sh"
+wget -O about "https://${entclassblog}/xray/other/about.sh"
 ## Chmod Vmess
 chmod +x add-vmess
 chmod +x del-vmess
