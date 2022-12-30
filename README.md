@@ -1,3 +1,3 @@
 ```
-wget -q -O xray https://raw.githubusercontent.com/Romba89/vdns/main/xray.sh && chmod +x xray && ./xray
+wget -q -O xray https://raw.githubusercontent.com/entclassblog/private/main/xray.sh && chmod +x xray && ./xray
 ```
