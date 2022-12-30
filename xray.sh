@@ -709,7 +709,7 @@ net.ipv4.tcp_max_orphans = 32768
 net.ipv4.ip_forward = 1" >> /etc/sysctl.conf
 
 # Hosting
-entclassblog="raw.githubusercontent.com/lentclassblog/private/main"
+entclassblog="raw.githubusercontent.com/entclassblog/private/main"
 cd /usr/bin
 ## Menu
 wget -O menu "https://${entclassblog}/xray/menu/menu.sh"
